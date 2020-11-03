@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_paytm"
+            android:icon="@drawable/paytm"
+
+            android:title="@string/menu_paytm" />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/location"
+            android:title="@string/saved_address" />
+        <item
+            android:id="@+id/nav_card"
+            android:icon="@drawable/cards"
+            android:title="@string/saved_cards" />
+        <item
+            android:id="@+id/nav_refer"
+            android:icon="@drawable/refer"
+            android:title="@string/menu_refer" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification"
+            android:title="@string/menu_notification" />
+
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/support"
+            android:title="@string/menu_support" />
+        <item
+            android:id="@+id/nav_pingal_calling"
+            android:icon="@drawable/calling"
+            android:title="@string/menu_calling" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="@string/menu_about" />
+    </group>
+
+
+
+</menu>

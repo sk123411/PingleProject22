@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">PingleProject</string>
+    <string name="pingle_text">Pingle</string>
+    <string name="dummy">Online Food\nGrocery dfdf</string>
+    <string name="pingle_subtext">The only 24x7 delivery app</string>
+    <string name="order_food_text"> <![CDATA[
+ Author: Sergio Abreu\n
+ http://sites.sitesbr.net
+  ]]>    </string>
+    <string name="hint_text">Enter your phone number</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">+91256226464</string>
+    <string name="nav_header_subtitle">Complete account setup></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_cash">Pingal Cash</string>
+    <string name="action_user">User</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="not_receive_otp">Didn\'t receive OTP?</string>
+    <string name="otp_on_call">GET OTP ON CALL</string>
+    <string name="verify_continue">Verify and Continue</string>
+    <string name="credit_debit">Credit/Debit Card</string>
+    <string name="enter_card"><![CDATA[CARD NO]]></string>
+    <string name="card_no">Enter card number.</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_name_">NAME ON CARD</string>
+    <string name="expiry_">EXPIRY DATE</string>
+    <string name="expiry_date">MM/YY</string>
+    <string name="add_card">Add Card</string>
+
+
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- Bottom Navigation -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Pingal">Pingal</string>
+    <string name="saved_cards">Saved Cards</string>
+    <string name="refer">Refer</string>
+    <string name="hello_blank_fragment">"Black "</string>
+
+    <string name="menu_tools">Tools</string>
+    <string name="saved_address">Saved Address</string>
+    <string name="no_address_saved">You have no address saved yet</string>
+    <string name="add_location">Tap + button to add a location</string>
+    <string name="menu_refer">Refer a partner</string>
+    <string name="menu_notification">Notification Setting</string>
+    <string name="menu_support">PINGAL Support</string>
+    <string name="menu_calling">Pingal Calling</string>
+    <string name="menu_about">About</string>
+    <string name="menu_paytm">Paytm</string>
+    <string name="order_support">Order and Support</string>
+    <string name="order_support_">Receive notification related to your order status</string>
+    <string name="offers">Offers</string>
+    <string name="offers__">Receive notification related to offers</string>
+    <string name="promotion">Promotion and new launches</string>
+    <string name="pingal_cash">Pingal cash</string>
+    <string name="next">Next</string>
+    <string name="sample">dosl ldkfld kldkfldk ldfffffffffffffffffff</string>
+    <string name="issue_not_related">Issue not related to order</string>
+    <string name="no_pingal_calling">"Pingal calling feature "</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="locating">Locating...</string>
+    <string name="change_location">Change Location</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="partners">Our partners earn upto Rs 30,000 each month log in and log out , all they need is bike and smartphone</string>
+
+</resources>

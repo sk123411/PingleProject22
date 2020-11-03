@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/background_top">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:backgroundTint="@android:color/white"
+                android:src="@drawable/ic_baseline_arrow_back_24">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="@string/menu_paytm"
+                android:textColor="@android:color/white"
+                android:textSize="24sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/editTextOTP"
+            android:layout_below="@id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/enter_otp"
+            android:paddingBottom="24dp"
+            android:text="+9191212212"
+            android:inputType="textPersonName"
+            />
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="18dp"
+            app:cardBackgroundColor="@color/titleColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:paddingTop="10dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                >
+
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

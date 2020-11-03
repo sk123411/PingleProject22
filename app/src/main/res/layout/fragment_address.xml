@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/headerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/background_top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:backgroundTint="@android:color/white"
+                android:src="@drawable/ic_baseline_arrow_back_24">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="@string/saved_address"
+                android:textColor="@android:color/white"
+                android:textSize="24sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_below="@id/headerFrame"
+       android:orientation="vertical"
+       android:layout_centerInParent="true"
+       android:gravity="center"
+
+       >
+
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:src="@drawable/city">
+
+       </ImageView>
+
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="2dp"
+           android:layout_marginLeft="2dp"
+           android:layout_marginTop="10dp"
+           android:text="@string/no_address_saved"
+           android:textColor="@color/black"
+           android:textSize="16sp" />
+
+       <TextView
+           android:id="@+id/textView4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="2dp"
+           android:layout_marginLeft="2dp"
+           android:layout_marginTop="10dp"
+           android:text="@string/add_location"
+           android:textColor="@android:color/darker_gray"
+           android:textSize="16sp" />
+   </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:borderWidth="0dp"
+        android:src="@drawable/add_location"
+        android:backgroundTint="@android:color/white"
+        android:layout_alignParentRight="true">
+
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+</RelativeLayout>

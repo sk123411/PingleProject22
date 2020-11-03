@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/titleColor"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/refer_back"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/background_top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/backArrow"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="@android:color/white"
+                    android:src="@drawable/ic_baseline_arrow_back_24">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/refer"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/partners"
+            android:padding="2dp"
+            >
+
+        </TextView>
+
+        <EditText
+
+            android:id="@+id/editTextFullName"
+            android:layout_below="@id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:textColorHint="@android:color/white"
+            android:hint="@string/full_name"
+            android:paddingBottom="24dp"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:id="@+id/editTextOTP"
+            android:layout_below="@id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:textColorHint="@android:color/white"
+            android:hint="@string/full_name"
+            android:paddingBottom="24dp"
+            android:inputType="textPersonName"
+            />
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="18dp"
+            app:cardBackgroundColor="@color/titleColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="@string/verify_continue"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                >
+
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
